@@ -1,5 +1,6 @@
 # Matlab搭建AlexNet实现手写数字识别
 
+[个人博客地址](https://lightningleader.github.io/posts/21.html)
 ## 环境
 
 - Matlab 2020a
