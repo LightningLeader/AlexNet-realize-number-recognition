@@ -19,7 +19,7 @@
 
 下载数据集后并解压，为每个数字创建单独文件夹并将该数字的所有图片放在对应的文件夹下，如图1所示。
 
-![图1 将图片按数字分类](posts/19/1.png)
+![图1 将图片按数字分类](https://github.com/LightningLeader/LightningLeader.github.io/blob/master/posts/21/1.png)
 
 手动分类结束后每个文件夹中应有50张图片。
 
@@ -117,7 +117,7 @@ lgraph = layerGraph(mynet);
 analyzeNetwork(lgraph)
 ```
 
-<img src="posts\21\2.png" alt="2" style="zoom:50%;" />
+<img src="https://github.com/LightningLeader/LightningLeader.github.io/blob/master/posts/21/2.png" alt="2" style="zoom:50%;" />
 
 ### 定义训练超参数
 
@@ -147,7 +147,7 @@ net = trainNetwork(augimdsTrain, mynet, options);
 
 其中，YPred是存放网络对验证集预测结果的数组，err存放着每个数字的判定概率。
 
-![3](posts\21\3.png)
+![3](https://github.com/LightningLeader/LightningLeader.github.io/blob/master/posts/21/3.png)
 
 ```matlab
 % 打印真实数字、预测数字、判定概率和准确率
